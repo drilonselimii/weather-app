@@ -9,14 +9,18 @@ body {
 }
 
 .app{
-  background-image: url('./assets/winter.jpg');
+  background-image: url('./assets/clear.jpg');
   background-size: cover;
   background-position: bottom;
   transition: 0.4 ease;
 }
 
-.app.warm {
-  background-image: url('./assets/summer.jpg');
+.app.clouds {
+  background-image: url('./assets/clouds.jpg');
+}
+
+.app.rain {
+  background-image: url('./assets/rainy.jpg');
 }
 
 main{
