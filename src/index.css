@@ -109,3 +109,14 @@ main{
   font-weight: 700;
   text-shadow: 3px 3px rgba(50, 50, 70, 0.5);
 }
+
+.todayw-position{
+  margin-left: -400px;
+}
+
+.next7days{
+  float: right;
+  position: relative;
+  margin-top: -20%;
+  margin-right: 8%;
+}

@@ -1,0 +1,40 @@
+.button{
+    position: relative;
+    display: inline-block;
+    width: 180px;
+    height: 25px;
+    float: right;
+    margin-right: 20%;
+}
+
+.changer{
+    position: absolute;
+    cursor: pointer;
+    background-color: 	#ccc;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 2px;
+    padding-left: 6px;
+    padding-top: 4px;
+}
+
+.changer:hover{
+    background-color: white;
+    transition: 0.4s;
+}
+
+.changer:before {
+    position: absolute;
+    content: "Show 7 days forecast";   
+    border-radius: 2px;
+    font: 1em sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+input:checked + .changer:before{
+    content: "Hide 7 days forecast";
+}
+

@@ -1,0 +1,24 @@
+.nextday{
+    background-color: rgba(255, 255, 255, 0.5);
+    font-weight: bold;   
+    border-radius: 10px; 
+    border: solid 1px;
+}
+.col1{
+    width: 105px;
+    padding-right: 15px;
+}
+
+.col2{
+    width: 150px;
+    padding-right: 15px;
+}
+
+.col3{
+    width: 150px;
+    padding-right: 15px;
+}
+
+.col4{
+    width: 60px;
+}
